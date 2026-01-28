@@ -1,0 +1,14 @@
+ul {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 400ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+ul.expanded {
+    grid-template-rows: 1fr;
+}
+
+ul > * {
+    min-height: 0;
+}

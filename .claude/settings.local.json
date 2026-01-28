@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__angular-cli__search_documentation",
+      "Bash(npm run build)",
+      "mcp__angular-cli__list_projects",
+      "Bash(npm start)",
+      "Bash(timeout 10 bash:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(ng serve:*)",
+      "mcp__angular-cli__get_best_practices",
+      "WebFetch(domain:localhost)",
+      "Bash(curl:*)",
+      "mcp__primeng__search_components",
+      "mcp__primeng__list_components"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "angular-cli",
+    "primeng",
+    "playwright"
+  ]
+}

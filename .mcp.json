@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "angular-cli": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@angular/cli", "mcp"]
+    },
+    "primeng": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@primeng/mcp"]
+    },
+    "playwright": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-playwright"]
+    }
+  }
+}
